@@ -1,0 +1,15 @@
+{
+  "policy": "MlpPolicy",
+  "learning_rate": 0.03,
+  "buffer_size": 200000,
+  "batch_size": 128,
+  "target_update_interval": 1000,
+  "gamma": 0.8,
+  "train_freq": 8,
+  "learning_starts": 1000,
+  "exploration_initial_eps": 0.8,
+  "exploration_final_eps": 0.001,
+  "exploration_fraction": 0.8,
+  "verbose": 1,
+  "tensorboard_log": null
+}

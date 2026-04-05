@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+model_history2/
+log/
+logs/
+rewards_*.txt
+losses.txt
+order_info.txt
+.DS_Store
+*.zip
+*.pdf
+*.log

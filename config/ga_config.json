@@ -1,0 +1,42 @@
+{
+    "GA_CONFIG": {
+        "USE_GA": true,
+        "GA_LIGHTWEIGHT": true,
+        "LIGHTWEIGHT_PARAMS": {
+            "population_size": 4,
+            "generations": 2,
+            "mutation_rate": 0.2,
+            "crossover_rate": 0.6,
+            "elite_size": 1,
+            "cache_update_interval": 10,
+            "complexity_threshold": 2.0,
+            "min_orders_for_ga": 3,
+            "min_system_load": 5
+        },
+        "FULL_PARAMS": {
+            "population_size": 10,
+            "generations": 5,
+            "mutation_rate": 0.1,
+            "crossover_rate": 0.8,
+            "elite_size": 2,
+            "cache_update_interval": 5,
+            "complexity_threshold": 1.5,
+            "min_orders_for_ga": 2,
+            "min_system_load": 3
+        },
+        "SELECTION_PARAMS": {
+            "ga_selection_ratio": 0.6,
+            "min_selected_orders": 2,
+            "max_selected_orders": 8
+        },
+        "PERFORMANCE_MONITORING": {
+            "track_ga_usage": true,
+            "track_computation_time": true,
+            "log_selection_decisions": false
+        },
+        "ABLATION": {
+            "USE_SCPR_ONLY": false,
+            "SCPR_comment": "When USE_SCPR_ONLY=true: disables GA crossover/mutation, uses greedy top-k dynamic ranking only. Used as PPO+SCPR ablation baseline."
+        }
+    }
+} 
