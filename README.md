@@ -4,7 +4,7 @@
 
 ## Overview
 
-HGPPO is a hybrid scheduling framework combining Proximal Policy Optimization (PPO) for global workstation selection with an Adaptive Genetic Algorithm (GA) for local task prescreening. The environment simulates a flexible hybrid disassembly line with 12 workstations (automated + manual), stochastic failures, and dynamic product arrivals. Published in Expert Systems With Applications (ESWA).
+HGPPO is a hybrid scheduling framework combining Proximal Policy Optimization (PPO) for global workstation selection with an Adaptive Genetic Algorithm (GA) for local task prescreening. The environment simulates a flexible hybrid disassembly line with 12 workstations (automated + manual), stochastic failures, and dynamic product arrivals. Published in Journal of Manufacturing Systems.
 
 ## Repository Structure
 
@@ -133,12 +133,9 @@ DQN+FIFO        | 133.90 ± 3.50  | ~116 s
 ## Citation
 
 ```bibtex
-@article{ye2026hgppo,
-  title={Hierarchical Scheduling for Dynamic Hybrid Disassembly Lines via
-         Proximal Policy Optimization and Adaptive Genetic Algorithm},
-  author={Ye, Xiaoyun and Guo, Jiasen and others},
-  journal={Expert Systems With Applications},
-  year={2026}
+@article{hgppo,
+  title={An adaptive Genetic-Assisted Hierarchical Policy Deep Reinforcement Learning Framework for Scheduling in Dynamic Hybrid Disassembly Lines},
+  journal={Journal of Manufacturing Systems},
 }
 ```
 
