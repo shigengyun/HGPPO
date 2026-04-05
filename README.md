@@ -130,15 +130,6 @@ PPO+RANDOM      | 141.91 ± 1.12  | ~112 s
 DQN+FIFO        | 133.90 ± 3.50  | ~116 s
 ```
 
-## Citation
-
-```bibtex
-@article{hgppo,
-  title={An adaptive Genetic-Assisted Hierarchical Policy Deep Reinforcement Learning Framework for Scheduling in Dynamic Hybrid Disassembly Lines},
-  journal={Journal of Manufacturing Systems},
-}
-```
-
 ## License
 
 MIT
