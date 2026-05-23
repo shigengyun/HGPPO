@@ -55,8 +55,8 @@ scipy>=1.11
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/HGPPO-disassembly.git
-cd HGPPO-disassembly
+git clone https://github.com/shigengyun/HGPPO.git
+cd HGPPO
 pip install -r requirements.txt
 ```
 
